@@ -29,5 +29,5 @@ p.send(f"{idx} {val}\n".encode())
 try:
     while True:
         print(p.recvline().decode(), end="")
-except:
+except Exception:
     pass

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from pwn import *
 
-p = process("./04-uaf")
+p = process("./07-double-free")
 
 
 def read_addr():
